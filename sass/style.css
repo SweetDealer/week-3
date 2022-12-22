@@ -88,6 +88,53 @@ body {
   background: #e5c511;
 }
 
+/*Services*/
+.section__header {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.section__header .section__title {
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+.section__header .section__subtitle {
+  font-family: "Lora";
+  padding-bottom: 30px;
+  color: gray;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 18px;
+}
+.item *:not(:last-child) {
+  margin-bottom: 24px;
+}
+.item .item__icon {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: 2px solid #feda12;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item .item__icon i {
+  color: #feda12;
+  font-size: 36px;
+}
+.item .item__title {
+  font-weight: 700;
+}
+.item .item__text {
+  line-height: 1.5;
+  color: gray;
+}
+
 @media (max-width: 625px) {
   .header .container .row {
     flex-wrap: nowrap;
