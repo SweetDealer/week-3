@@ -135,6 +135,7 @@ body {
   color: gray;
 }
 
+/*Portfolio*/
 .portfolio {
   background: #f3ebeb;
 }
@@ -156,6 +157,30 @@ body {
   font-family: "Lora";
 }
 
+/*Footer*/
+.footer .row .copyright {
+  line-height: 40px;
+}
+.footer .row .social__list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.footer .row .social__list .social__item {
+  display: flex;
+  background: #000;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
+.footer .row .social__list .social__item i {
+  color: #fff;
+  font-size: 20px;
+}
+
 @media (max-width: 625px) {
   .header .container .row {
     flex-wrap: nowrap;
@@ -172,5 +197,16 @@ body {
   }
   .header .header__menu .header__navigation .navigation__list .navigation__item {
     flex: 0 1 20%;
+  }
+}
+@media (min-width: 768px) {
+  .footer .row .copyright {
+    order: 1;
+  }
+  .footer .row .social {
+    order: 2;
+  }
+  .footer .row .social .social__list {
+    margin-bottom: 0;
   }
 }/*# sourceMappingURL=style.css.map */
