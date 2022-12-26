@@ -135,6 +135,27 @@ body {
   color: gray;
 }
 
+.portfolio {
+  background: #f3ebeb;
+}
+.portfolio .portfolio__row .portfolio__item {
+  background: #fff;
+  margin: 0 5px 48px 5px;
+}
+.portfolio .portfolio__row .portfolio__item img {
+  width: 100%;
+}
+.portfolio .portfolio__row .portfolio__item .portfolio__item_body {
+  padding: 24px;
+  line-height: 1.3;
+}
+.portfolio .portfolio__row .portfolio__item .portfolio__item_body .portfolio__title {
+  font-weight: 700;
+}
+.portfolio .portfolio__row .portfolio__item .portfolio__item_body .portfolio__subtitle {
+  font-family: "Lora";
+}
+
 @media (max-width: 625px) {
   .header .container .row {
     flex-wrap: nowrap;
